@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/welcome_bac"
+        android:textColor="@color/notaccount"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/please_ente"
+        android:textColor="@color/enter"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_mail_24"
+        android:hint="Email or phone number"
+        android:textColor="@color/enter"
+        android:textSize="15sp"
+        android:textAllCaps="false" />
+
+    <EditText
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawableRight="@drawable/ic_baseline_remove_red_eye_24"
+        android:hint="Password"
+        android:textColor="@color/enter"
+        android:textSize="15sp"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/forgot_pass"
+        android:textColor="@color/enter"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:layout_width="327dp"
+        android:layout_height="62dp"
+        app:cornerRadius="32dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/login"
+        android:text="@string/login"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/or_continue"
+        android:textSize="15sp"
+        android:textColor="@color/oraccount"
+        />
+
+    <Button
+        android:layout_width="327dp"
+        android:layout_height="62dp"
+        app:cornerRadius="32dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FF5842"
+        android:drawableLeft="@drawable/ic_google"
+        android:textAlignment="textStart"
+        android:paddingLeft="120dp"
+        android:text="@string/google"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/don_t_have_"
+            android:textColor="@color/notaccount"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:textColor="@color/login"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

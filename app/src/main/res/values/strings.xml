@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">OnboardingFlow</string>
+    <string name="next">Next</string>
+    <string name="continues">Continue</string>
+    <string name="skip_pressed">Skip Pressed!!</string>
+    <string name="description">How great is it to travel?
+      To meet new people, see new places, experience different cultures.</string>
+    <string name="title">Travel World</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    <string name="already_hav">
+
+    Already have account?
+</string>
+<string name="log_in">
+
+Log In
+</string>
+<string name="welcome_bac">
+
+Welcome Back!
+</string>
+<string name="please_ente">
+
+Please enter your account here
+</string>
+<string name="forgot_pass">
+
+Forgot password?
+</string>
+<string name="or_continue">
+
+Or continue with
+</string>
+<string name="don_t_have_">
+
+Don’t have any account?
+</string>
+<string name="sign_up">
+
+Sign Up
+</string>
+<string name="login">
+
+Login
+</string>
+<string name="google">
+
+Google
+</string>
+    </resources>
